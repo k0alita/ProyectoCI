@@ -27,6 +27,13 @@ public class MathServiceTest {
         int a = 5;
         int b = 4;
         int result = this.mathService.restar(a, b);
-        assertEquals(result, 2s);
+        assertEquals(result, 1);
+    }
+
+    public void testMultiplicacion(){
+        int a = 5;
+        int b = 5;
+        int result = this.mathService.restar(a, b);
+        assertEquals(result, 25);
     }
 }
